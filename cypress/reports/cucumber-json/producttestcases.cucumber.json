@@ -1,0 +1,312 @@
+[
+  {
+    "keyword": "Feature",
+    "name": "Product all test cases",
+    "line": 1,
+    "id": "product-all-test-cases",
+    "tags": [],
+    "uri": "producttestcases.feature",
+    "elements": [
+      {
+        "id": "product-all-test-cases;select-5-products-and-verify-the-totalprice-is-matching",
+        "keyword": "Scenario",
+        "line": 5,
+        "name": "Select 5 products and verify the totalprice is matching",
+        "tags": [],
+        "type": "scenario",
+        "steps": [
+          {
+            "arguments": [],
+            "keyword": "Given ",
+            "line": 6,
+            "name": "user visited the webpage",
+            "result": {
+              "status": "passed",
+              "duration": 7082000000
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "When ",
+            "line": 7,
+            "name": "user landed on the homepage",
+            "result": {
+              "status": "passed",
+              "duration": 14000000
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "And ",
+            "line": 8,
+            "name": "user selects any 5 products",
+            "result": {
+              "status": "passed",
+              "duration": 7684000000
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "And ",
+            "line": 9,
+            "name": "proceed to check out",
+            "result": {
+              "status": "passed",
+              "duration": 7647000000
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "Then ",
+            "line": 10,
+            "name": "total products prices matches with the total bill calculated",
+            "result": {
+              "status": "passed",
+              "duration": 113000000
+            }
+          }
+        ]
+      },
+      {
+        "id": "product-all-test-cases;product-names-verify",
+        "keyword": "Scenario",
+        "line": 16,
+        "name": "product names verify",
+        "tags": [],
+        "type": "scenario",
+        "steps": [
+          {
+            "arguments": [],
+            "keyword": "Given ",
+            "line": 17,
+            "name": "user visited the webpage",
+            "result": {
+              "status": "passed",
+              "duration": 4888000000
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "When ",
+            "line": 18,
+            "name": "user landed on the homepage",
+            "result": {
+              "status": "passed",
+              "duration": 13000000
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "Then ",
+            "line": 19,
+            "name": "verify product names are visible",
+            "result": {
+              "status": "passed",
+              "duration": 127000000
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "And ",
+            "line": 20,
+            "name": "log product names",
+            "result": {
+              "status": "passed",
+              "duration": 52000000
+            }
+          }
+        ]
+      },
+      {
+        "id": "product-all-test-cases;select-products-by-discount",
+        "keyword": "Scenario",
+        "line": 22,
+        "name": "Select Products by discount",
+        "tags": [],
+        "type": "scenario",
+        "steps": [
+          {
+            "arguments": [],
+            "keyword": "Given ",
+            "line": 23,
+            "name": "user visited the webpage",
+            "result": {
+              "status": "passed",
+              "duration": 7057000000
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "When ",
+            "line": 24,
+            "name": "user landed on the homepage",
+            "result": {
+              "status": "passed",
+              "duration": 14000000
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "Then ",
+            "line": 25,
+            "name": "verify product names are visible",
+            "result": {
+              "status": "passed",
+              "duration": 121000000
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "And ",
+            "line": 26,
+            "name": "select products by discount",
+            "result": {
+              "status": "passed",
+              "duration": 3647000000
+            }
+          }
+        ]
+      },
+      {
+        "id": "product-all-test-cases;select-products-by-price-asc-and-verify-sort-order",
+        "keyword": "Scenario",
+        "line": 28,
+        "name": "Select Products by price asc and verify sort order",
+        "tags": [],
+        "type": "scenario",
+        "steps": [
+          {
+            "arguments": [],
+            "keyword": "Given ",
+            "line": 29,
+            "name": "user visited the porduct select webpage",
+            "result": {
+              "status": "passed",
+              "duration": 6171000000
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "When ",
+            "line": 30,
+            "name": "user landed on the Women - My Store page",
+            "result": {
+              "status": "passed",
+              "duration": 14000000
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "Then ",
+            "line": 31,
+            "name": "select products by price and verify sort order",
+            "result": {
+              "status": "failed",
+              "error_message": "AssertionError\n    + expected - actual\n\n    -'\\n\\t\\t\\t\\t\\t\\t\\t\\t$16.40\\t\\t\\t\\t\\t\\t\\t'\n    +'\\n\\t\\t\\t\\t\\t\\t\\t\\t$16.51\\t\\t\\t\\t\\t\\t\\t'\n\n    at Context.eval (http://automationpractice.com/__cypress/tests?p=cypress\\support\\index.js:40:30)"
+            }
+          }
+        ]
+      },
+      {
+        "id": "product-all-test-cases;select-product-colour-and-verify",
+        "keyword": "Scenario",
+        "line": 33,
+        "name": "Select Product colour and verify",
+        "tags": [],
+        "type": "scenario",
+        "steps": [
+          {
+            "arguments": [],
+            "keyword": "Given ",
+            "line": 34,
+            "name": "user visited the product type selection webpage",
+            "result": {
+              "status": "passed",
+              "duration": 7229000000
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "When ",
+            "line": 35,
+            "name": "user landed on the Printed Summer Dress",
+            "result": {
+              "status": "passed",
+              "duration": 10000000
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "And ",
+            "line": 36,
+            "name": "toggle between colours",
+            "result": {
+              "status": "passed",
+              "duration": 174000000
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "And ",
+            "line": 37,
+            "name": "verify colours are updated",
+            "result": {
+              "status": "passed",
+              "duration": 27000000
+            }
+          }
+        ]
+      },
+      {
+        "id": "product-all-test-cases;select-product-logo-and-verify-user-is-redirected-to-homepage",
+        "keyword": "Scenario",
+        "line": 39,
+        "name": "Select Product logo and verify user is redirected to homepage",
+        "tags": [],
+        "type": "scenario",
+        "steps": [
+          {
+            "arguments": [],
+            "keyword": "Given ",
+            "line": 40,
+            "name": "user visited the porduct select webpage",
+            "result": {
+              "status": "passed",
+              "duration": 5554000000
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "When ",
+            "line": 41,
+            "name": "user landed on the Women - My Store page",
+            "result": {
+              "status": "passed",
+              "duration": 14000000
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "And ",
+            "line": 42,
+            "name": "user selects logo",
+            "result": {
+              "status": "passed",
+              "duration": 9013000000
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "Then ",
+            "line": 43,
+            "name": "verify user landed on homepage",
+            "result": {
+              "status": "passed",
+              "duration": 16000000
+            }
+          }
+        ]
+      }
+    ]
+  }
+]
